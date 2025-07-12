@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "chunkinthelab",
+  "version": "1.0.0",
+  "name": "Chunk In The Lab",
+  "description": "Fork of Chunk In A Globe Unofficial with Pehkui integration",
+  "authors": ["solace"],
+  "contact": {
+    "homepage": "https://github.com/solace/ChunkInTheLab",
+    "sources": "https://github.com/solace/ChunkInTheLab"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.20.1",
+    "pehkui": "*"
+  },
+  "entrypoints": {
+    "main": [
+      "solace.chunkinthelab.ChunkInTheLabMod"
+    ]
+  }
+}
